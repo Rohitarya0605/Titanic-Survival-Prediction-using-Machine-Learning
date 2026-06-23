@@ -1,64 +1,81 @@
+<div align="center">
+
 # 🚢 Titanic Survival Prediction using Machine Learning
 
-## Overview
-This project is an end-to-end Machine Learning classification model built to predict whether a passenger survived the Titanic disaster based on demographic and travel-related features.
+### Predicting passenger survival using Data Science & Machine Learning models
 
-The project was developed as part of the AI Capstone Project under the Honeywell Future Skills Edge Program.
+<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge&logo=scikitlearn"/>
+<img src="https://img.shields.io/badge/Data%20Analysis-Pandas-yellow?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Capstone-Honeywell-red?style=for-the-badge"/>
+
+</div>
 
 ---
 
-## Problem Statement
-The Titanic disaster is one of the most well-known real-world datasets used in Machine Learning. The objective is to build a predictive model that determines whether a passenger survived or not using historical passenger data.
+# 📌 Project Overview
+The **Titanic Survival Prediction** project is an end-to-end Machine Learning classification system built to predict whether a passenger survived the Titanic disaster based on demographic and travel-related features.
+
+This project was developed as part of the **Honeywell Future Skills Edge AI Capstone Program**.
+
+---
+
+# 🎯 Problem Statement
+Can we predict whether a passenger survived the Titanic disaster using historical passenger data?
 
 Target Variable:
-- Survived (0 = No, 1 = Yes)
+
+```python
+0 = Did Not Survive
+1 = Survived
+```
 
 ---
 
-## Dataset Features
-The dataset includes the following features:
+# 📊 Dataset Features
 
-- Passenger ID
-- Passenger Class (Pclass)
-- Name
-- Sex
-- Age
-- Number of Siblings/Spouses aboard
-- Number of Parents/Children aboard
-- Ticket Number
-- Fare
-- Cabin
-- Embarked Port
+| Feature | Description |
+|---------|-------------|
+| Pclass | Passenger Class |
+| Sex | Gender |
+| Age | Passenger Age |
+| Fare | Ticket Fare |
+| SibSp | Siblings / Spouses |
+| Parch | Parents / Children |
+| Embarked | Boarding Port |
 
 ---
 
-## Project Workflow
+# ⚙️ Machine Learning Pipeline
 
-### 1. Data Collection
-Collected Titanic passenger dataset for analysis and prediction.
+```bash
+Data Collection
+    ↓
+Data Cleaning
+    ↓
+EDA
+    ↓
+Feature Engineering
+    ↓
+Model Training
+    ↓
+Evaluation
+```
 
-### 2. Data Preprocessing
-- Handling missing values
-- Cleaning inconsistent records
-- Encoding categorical variables
-- Feature selection
+---
 
-### 3. Exploratory Data Analysis (EDA)
-Analyzed:
-- Survival distribution
-- Gender-based survival rate
-- Age distribution
-- Passenger class impact
+# 🧠 Models Used
 
-### 4. Model Training
-Machine Learning classification algorithms used:
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- KNN (optional)
+✅ Logistic Regression  
+✅ Decision Tree  
+✅ Random Forest  
+✅ K-Nearest Neighbors  
 
-### 5. Model Evaluation
-Evaluated performance using:
+---
+
+# 📈 Evaluation Metrics
+
 - Accuracy
 - Precision
 - Recall
@@ -67,43 +84,52 @@ Evaluated performance using:
 
 ---
 
-## Technologies Used
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+# 🛠 Tech Stack
+
+<p align="left">
+Python | Pandas | NumPy | Matplotlib | Scikit-Learn | Jupyter Notebook
+</p>
 
 ---
 
-## Key Learnings
-Through this project, I learned:
+# ✨ Key Learnings
 
-- Data preprocessing techniques
-- Feature engineering
-- Classification models
-- Model evaluation metrics
-- End-to-end ML workflow
-
----
-
-## Results
-The model successfully predicts Titanic passenger survival with strong classification performance and demonstrates how Machine Learning can solve real-world prediction problems.
+✔ Data preprocessing  
+✔ Missing value handling  
+✔ Feature engineering  
+✔ Classification algorithms  
+✔ Model comparison  
 
 ---
 
-## Future Improvements
+# 🚀 Future Improvements
+
 - Hyperparameter tuning
-- Model optimization
-- Web deployment using Streamlit
+- Streamlit deployment
+- Web UI
 - Real-time prediction dashboard
 
 ---
 
-## Author
-### Rohit Arya
+# 📂 Project Structure
+
+```bash
+titanic-survival-prediction/
+│
+├── data/
+├── notebooks/
+├── images/
+├── README.md
+├── requirements.txt
+└── model.pkl
+```
+
+---
+
+# 👨‍💻 Author
+
+## Rohit Arya  
 B.Tech Electronics & Communication Engineering  
 MIT ADT University, Pune  
 
-AI Capstone Project | Honeywell Future Skills Edge
+⭐ If you liked this project, consider starring the repo.
